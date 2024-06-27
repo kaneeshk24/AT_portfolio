@@ -1,0 +1,278 @@
+.div {
+  position: relative;
+  line-height: 50px;
+  font-weight: 900;
+}
+.frameChild {
+  width: 300px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-darkslategray);
+  height: 5px;
+}
+.frameGroup,
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.frameGroup {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 150px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-231xl);
+}
+.silverIcon {
+  width: 80px;
+  position: relative;
+  height: 80px;
+  object-fit: cover;
+}
+.bronzeParent,
+.image99Parent,
+.silverWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bronzeParent,
+.image99Parent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.image99Parent {
+  align-items: center;
+}
+.frameContainer,
+.frameParent {
+  position: absolute;
+  left: calc(50% - 365px);
+}
+.frameContainer {
+  top: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-231xl);
+}
+.frameParent {
+  top: 336px;
+  width: 730px;
+  height: 1491px;
+}
+.clickToExpand,
+.myAchievements {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 624px);
+  line-height: 50px;
+}
+.clickToExpand {
+  top: 130px;
+  left: calc(50% - 142px);
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-silka);
+  color: #7c7c7c;
+}
+.a6e65cb81OIcon,
+.achievements,
+.myAchievementsParent {
+  position: absolute;
+  left: calc(50% - 624px);
+  width: 1248px;
+}
+.myAchievementsParent {
+  top: 0;
+  height: 180px;
+  font-size: var(--font-size-131xl);
+  font-family: var(--font-dirtyline-36daysoftype-2022);
+}
+.a6e65cb81OIcon,
+.achievements {
+  top: 2895px;
+  height: 1827px;
+}
+.a6e65cb81OIcon {
+  top: 55px;
+  left: calc(50% - 960px);
+  width: 1920px;
+  height: 1280px;
+  object-fit: cover;
+}
+.aboutMeChild,
+.aboutMeItem {
+  position: absolute;
+  top: 831px;
+  left: calc(50% - 961px);
+  background: linear-gradient(180deg, transparent, #0e0e0e 79.86%);
+  width: 1922px;
+  height: 776px;
+}
+.aboutMeItem {
+  top: 909px;
+  height: 426px;
+}
+.iHaveBeen {
+  margin: 0;
+}
+.iHaveBeenContainer {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 739px);
+  line-height: 50px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1479px;
+  text-shadow: 0 0 20px #000;
+}
+.aboutMe {
+  position: absolute;
+  top: 1234px;
+  left: calc(50% - 961px);
+  width: 1922px;
+  height: 1335px;
+  text-align: center;
+  font-size: 40px;
+  color: var(--color-darkgray);
+}
+.f0c85fOIcon {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 1920px;
+  height: 960px;
+  object-fit: cover;
+}
+.heroSectionChild {
+  position: absolute;
+  top: 492px;
+  left: 0;
+  background: linear-gradient(180deg, transparent, #0e0e0e);
+  width: 1922px;
+  height: 469px;
+}
+.hiIAm,
+.iAmAn {
+  position: absolute;
+  top: 682px;
+  left: calc(50% - 590px);
+  line-height: 50px;
+  font-weight: 900;
+  display: inline-block;
+  width: 1082px;
+  height: 43px;
+}
+.iAmAn {
+  top: 749px;
+  left: calc(50% - 433px);
+  font-size: var(--font-size-17xl);
+  font-weight: 300;
+  color: var(--color-darkgray);
+  width: 769px;
+  height: 44px;
+}
+.heroSectionItem {
+  position: absolute;
+  top: 864px;
+  left: calc(50% - 49px);
+  max-height: 100%;
+  width: 44.2px;
+  object-fit: contain;
+}
+.heroSection {
+  position: absolute;
+  top: 166px;
+  left: -2px;
+  width: 1922px;
+  height: 961px;
+  text-align: center;
+}
+.frameChild2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 960px);
+  background-color: #000;
+  width: 1920px;
+  height: 165px;
+}
+.avaniLogoCondensed1 {
+  width: 200px;
+  position: relative;
+  height: 350.1px;
+  object-fit: cover;
+}
+.about {
+  position: relative;
+  line-height: 50px;
+}
+.aboutParent,
+.avaniLogoCondensed1Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.aboutParent {
+  width: 381px;
+  justify-content: space-between;
+  padding: 0 0 60px;
+  box-sizing: border-box;
+}
+.avaniLogoCondensed1Parent {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 846.5px);
+  justify-content: center;
+  gap: 1110px;
+}
+.groupChild {
+  position: absolute;
+  top: 161.5px;
+  left: calc(50% - 656px);
+  border-top: 5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1505px;
+  height: 5px;
+}
+.groupDiv {
+  position: absolute;
+  top: 2px;
+  left: calc(50% - 830px);
+  width: 1693px;
+  height: 350.1px;
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-dirtyline-36daysoftype-2022);
+}
+.footerAvani1 {
+  position: absolute;
+  top: 14980px;
+  left: calc(50% - 750px);
+  width: 1500px;
+  height: 373.8px;
+  object-fit: cover;
+}
+.myCoaches {
+  position: absolute;
+  top: 5219px;
+  left: calc(50% - 444px);
+  font-size: var(--font-size-131xl);
+  line-height: 50px;
+  font-family: var(--font-dirtyline-36daysoftype-2022);
+}
+.achievementsParent {
+  width: 100%;
+  position: relative;
+  background-color: #0e0e0e;
+  height: 15678px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--color-white);
+  font-family: var(--font-silka);
+}
